@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>NodeJS</title>
+    <meta name="generator" content="VuePress 1.5.3">
+    
+    <meta name="description" content="">
+    <link rel="preload" href="/software/assets/css/0.styles.23beb50a.css" as="style"><link rel="preload" href="/software/assets/js/app.cd795a3e.js" as="script"><link rel="preload" href="/software/assets/js/2.4319ddee.js" as="script"><link rel="preload" href="/software/assets/js/6.ab59749e.js" as="script"><link rel="prefetch" href="/software/assets/js/10.bcf8eb18.js"><link rel="prefetch" href="/software/assets/js/11.0c3308f5.js"><link rel="prefetch" href="/software/assets/js/12.79c96d48.js"><link rel="prefetch" href="/software/assets/js/13.6ab96f14.js"><link rel="prefetch" href="/software/assets/js/3.7b87f255.js"><link rel="prefetch" href="/software/assets/js/4.0f3502d1.js"><link rel="prefetch" href="/software/assets/js/5.040f4d44.js"><link rel="prefetch" href="/software/assets/js/7.324c0733.js"><link rel="prefetch" href="/software/assets/js/8.205d8fe3.js"><link rel="prefetch" href="/software/assets/js/9.0b4a3c19.js">
+    <link rel="stylesheet" href="/software/assets/css/0.styles.23beb50a.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/software/" class="home-link router-link-active"></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Languages" class="dropdown-title"><span class="title">Languages</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/software/languages/nodejs/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  nodejs
+</a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Languages" class="dropdown-title"><span class="title">Languages</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/software/languages/nodejs/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  nodejs
+</a></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/software/languages/nodejs/" aria-current="page" class="active sidebar-link">NodeJS</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/software/languages/nodejs/#问题集合" class="sidebar-link">问题集合</a></li></ul></li><li><a href="/software/languages/nodejs/node.html" class="sidebar-link">Node</a></li><li><a href="/software/languages/nodejs/npm.html" class="sidebar-link">Npm</a></li><li><a href="/software/languages/nodejs/nvm.html" class="sidebar-link">NVM</a></li><li><a href="/software/languages/nodejs/yarn.html" class="sidebar-link">Yarn</a></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="nodejs"><a href="#nodejs" class="header-anchor">#</a> NodeJS</h1> <blockquote><p>npm, cnpm, yarn, pnpm 究竟用哪个？</p></blockquote> <p>除了 npm 和 yarn, 还有 cnpm 和 pnpm，其中 cnpm 无非是配置了淘宝镜像而已，
+而 pnpm 则是改变了 npm 的包管理模式，使用软链接来减少 node_modules 的体积，这其实本质上来说很好。
+但是，由于各方对 pnpm 的支持太少，所以在后期使用的时候可能会碰到十分棘手的问题，
+这种情况下你甚至无法排查到底是哪里出了问题，以至于需要重装系统来清理 node 的环境，
+而这样的代价实在是太大了。因此，建议不要去节省空间使用 pnpm。</p> <h2 id="问题集合"><a href="#问题集合" class="header-anchor">#</a> 问题集合</h2> <p><a href="https://www.cnblogs.com/chenzhiran/p/12080349.html" target="_blank" rel="noopener noreferrer">无法加载文件 C:\Program Files\nodejs\npm.ps1，因为在此系统上禁止运行脚本。<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><!----> <span class="next"><a href="/software/languages/nodejs/node.html">
+        Node
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/software/assets/js/app.cd795a3e.js" defer></script><script src="/software/assets/js/2.4319ddee.js" defer></script><script src="/software/assets/js/6.ab59749e.js" defer></script>
+  </body>
+</html>
